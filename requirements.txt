@@ -1,3 +1,6 @@
 spotipy
 jupyter
 pandas
+matplotlib
+wordcloud
+numpy
