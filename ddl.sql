@@ -30,3 +30,16 @@ CREATE TABLE track (
 );
 
 
+\copy playlist_tracks FROM '/Users/taylor/Documents/projects/coding-fun/spotify/data/playlist_tracks_0.csv' WITH CSV HEADER;
+\copy playlist_tracks FROM '/Users/taylor/Documents/projects/coding-fun/spotify/data/playlist_tracks_5.csv' WITH CSV HEADER;
+\copy playlist_tracks FROM '/Users/taylor/Documents/projects/coding-fun/spotify/data/playlist_tracks_10.csv' WITH CSV HEADER;
+\copy playlist_tracks FROM '/Users/taylor/Documents/projects/coding-fun/spotify/data/playlist_tracks_15.csv' WITH CSV HEADER;
+\copy playlist_tracks FROM '/Users/taylor/Documents/projects/coding-fun/spotify/data/playlist_tracks_20.csv' WITH CSV HEADER;
+\copy playlist_tracks FROM '/Users/taylor/Documents/projects/coding-fun/spotify/data/playlist_tracks_25.csv' WITH CSV HEADER;
+\copy playlist_tracks FROM '/Users/taylor/Documents/projects/coding-fun/spotify/data/playlist_tracks_30.csv' WITH CSV HEADER;
+\copy playlist_tracks FROM '/Users/taylor/Documents/projects/coding-fun/spotify/data/playlist_tracks_35.csv' WITH CSV HEADER;
+\copy playlist_tracks FROM '/Users/taylor/Documents/projects/coding-fun/spotify/data/playlist_tracks_40.csv' WITH CSV HEADER;
+\copy playlist_tracks FROM '/Users/taylor/Documents/projects/coding-fun/spotify/data/playlist_tracks_45.csv' WITH CSV HEADER;
+\copy playlist_tracks FROM '/Users/taylor/Documents/projects/coding-fun/spotify/data/playlist_tracks_50.csv' WITH CSV HEADER;
+\copy playlist_tracks FROM '/Users/taylor/Documents/projects/coding-fun/spotify/data/playlist_tracks_55.csv' WITH CSV HEADER;
+

@@ -5,16 +5,19 @@ import re
 import time
 from collections import Counter
 
+artist_genres_cache = {}
 
 def get_track_genre_from_artist(track_details):
     # Get artist IDs from the track
     artist_ids = [artist['id'] for artist in track_details['artists']]
     all_genres = []
     for artist_id in artist_ids:
-        artist_data = sp.artist(artist_id)
-        all_genres.extend(artist_data['genres'])
+        if artist_id not in artist_genres_cache:
+            artist_data = sp.artist(artist_id)
+            artist_genres_cache[artist_id] = artist_data['genres']
+            time.sleep(0.1)  # polite pause, ~10 calls/sec
+        all_genres.extend(artist_genres_cache[artist_id])
     return str(all_genres)
-
 
 # Function to fetch tracks from a playlist
 def fetch_playlist_tracks(sp, playlist_id):
@@ -34,8 +37,8 @@ def fetch_playlist_tracks(sp, playlist_id):
 
     for track in all_tracks:
         track_details = track['track']
-        # genres = get_track_genre_from_artist(track_details)
-        genres = 'test genre'
+        genres = get_track_genre_from_artist(track_details)
+        # genres = 'test genre'
         track_data.append({
             "playlist_name": playlist_name,
             "explicit": track_details["explicit"],
@@ -94,6 +97,9 @@ def main(sp, playlist_ids):
     tracks = []
     chunk_size = 5
     for i, playlist in enumerate(playlist_ids):
+        if i < 11:
+            # this is because I already have the first 11 playlists saved
+            continue
         new_track = fetch_playlist_tracks(sp, playlist)
         # print(new_track[0].keys())
         tracks += new_track
@@ -105,7 +111,7 @@ def main(sp, playlist_ids):
         # Save to a CSV
         if i % chunk_size == 0:
             df = pd.DataFrame(tracks)
-            df.to_csv(f"playlist_tracks_{i}.csv", index=False)
+            df.to_csv(f"playlist_tracks_with_genre_{i}.csv", index=False)
             print(f"Tracks saved to playlist_tracks{i}.csv")
             tracks = []
 

@@ -53,3 +53,97 @@
 2025-09-14 22:10:19.998 CDT [99949] LOG:  database system was shut down at 2025-09-14 22:10:19 CDT
 2025-09-14 22:10:20.000 CDT [99948] LOG:  database system is ready to accept connections
 2025-09-14 22:10:20.096 CDT [99957] FATAL:  database "taylor" does not exist
+2025-09-27 15:40:27.207 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:27.911 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:27.912 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:28.622 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:28.622 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:29.326 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:29.326 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:30.031 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:30.031 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:30.738 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:30.739 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:31.451 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:31.451 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:32.149 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:32.150 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:32.854 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:32.855 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:33.552 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:33.552 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:34.257 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:34.257 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:34.958 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:34.958 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:35.663 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:35.664 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:36.360 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:36.360 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:37.064 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:37.064 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:37.766 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:37.766 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:38.226 CDT [99953] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2025-09-27 15:40:38.227 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:38.227 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:38.946 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:38.946 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:39.658 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:39.659 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:40.373 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:40.373 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:41.084 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:41.085 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:41.794 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:41.794 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:42.511 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:42.511 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:43.215 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:43.215 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:43.924 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:43.924 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:44.645 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:44.645 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:45.355 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:45.355 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:46.066 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:46.066 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:46.769 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:46.769 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:47.470 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:47.470 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:48.171 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:48.171 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:48.873 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:48.873 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:49.319 CDT [99953] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2025-09-27 15:40:49.320 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:49.320 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:50.022 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:50.023 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:50.727 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:50.729 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:51.429 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:51.429 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:52.139 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:52.139 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:52.843 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:52.843 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:53.546 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:53.546 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:54.257 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:54.258 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:54.974 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:54.975 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:55.677 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:55.677 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:56.389 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:56.389 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:57.094 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:57.094 CDT [99954] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2025-09-27 15:40:57.262 CDT [99948] LOG:  could not open file "postmaster.pid": No such file or directory
+2025-09-27 15:40:57.263 CDT [99948] LOG:  performing immediate shutdown because data directory lock file is invalid
+2025-09-27 15:40:57.263 CDT [99948] LOG:  received immediate shutdown request
+2025-09-27 15:40:57.263 CDT [99948] LOG:  could not open file "postmaster.pid": No such file or directory
+2025-09-27 15:40:57.280 CDT [99948] LOG:  database system is shut down
