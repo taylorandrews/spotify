@@ -1,0 +1,55 @@
+2025-09-14 21:46:19.284 CDT [99355] LOG:  starting PostgreSQL 14.19 (Homebrew) on aarch64-apple-darwin24.4.0, compiled by Apple clang version 17.0.0 (clang-1700.0.13.3), 64-bit
+2025-09-14 21:46:19.285 CDT [99355] LOG:  listening on IPv6 address "::1", port 5433
+2025-09-14 21:46:19.285 CDT [99355] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2025-09-14 21:46:19.286 CDT [99355] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2025-09-14 21:46:19.288 CDT [99356] LOG:  database system was shut down at 2025-09-14 21:46:19 CDT
+2025-09-14 21:46:19.290 CDT [99355] LOG:  database system is ready to accept connections
+2025-09-14 21:46:19.504 CDT [99364] FATAL:  database "taylor" does not exist
+2025-09-14 21:46:19.776 CDT [99369] FATAL:  role "postgres" does not exist
+2025-09-14 21:46:19.788 CDT [99371] FATAL:  role "postgres" does not exist
+2025-09-14 21:48:41.587 CDT [99399] FATAL:  lock file "postmaster.pid" already exists
+2025-09-14 21:48:41.587 CDT [99399] HINT:  Is another postmaster (PID 99355) running in data directory "/Users/taylor/Documents/projects/coding-fun/spotify/./pgdata"?
+2025-09-14 21:54:35.516 CDT [99355] LOG:  received fast shutdown request
+2025-09-14 21:54:35.517 CDT [99355] LOG:  aborting any active transactions
+2025-09-14 21:54:35.518 CDT [99355] LOG:  background worker "logical replication launcher" (PID 99362) exited with exit code 1
+2025-09-14 21:54:35.518 CDT [99357] LOG:  shutting down
+2025-09-14 21:54:35.523 CDT [99355] LOG:  database system is shut down
+2025-09-14 21:56:13.106 CDT [99721] LOG:  starting PostgreSQL 14.19 (Homebrew) on aarch64-apple-darwin24.4.0, compiled by Apple clang version 17.0.0 (clang-1700.0.13.3), 64-bit
+2025-09-14 21:56:13.106 CDT [99721] LOG:  listening on IPv6 address "::1", port 5433
+2025-09-14 21:56:13.106 CDT [99721] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2025-09-14 21:56:13.107 CDT [99721] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2025-09-14 21:56:13.109 CDT [99722] LOG:  database system was shut down at 2025-09-14 21:55:59 CDT
+2025-09-14 21:56:13.111 CDT [99721] LOG:  database system is ready to accept connections
+2025-09-14 21:57:17.516 CDT [99737] FATAL:  database "taylor" does not exist
+2025-09-14 21:59:48.015 CDT [99761] FATAL:  role "postgres" does not exist
+2025-09-14 22:01:14.865 CDT [99776] FATAL:  database "taylor" does not exist
+2025-09-14 22:08:48.335 CDT [99721] LOG:  received fast shutdown request
+2025-09-14 22:08:48.336 CDT [99721] LOG:  aborting any active transactions
+2025-09-14 22:08:48.338 CDT [99721] LOG:  background worker "logical replication launcher" (PID 99728) exited with exit code 1
+2025-09-14 22:08:48.338 CDT [99723] LOG:  shutting down
+2025-09-14 22:08:48.345 CDT [99721] LOG:  database system is shut down
+2025-09-14 22:09:13.429 CDT [99884] LOG:  starting PostgreSQL 14.19 (Homebrew) on aarch64-apple-darwin24.4.0, compiled by Apple clang version 17.0.0 (clang-1700.0.13.3), 64-bit
+2025-09-14 22:09:13.430 CDT [99884] LOG:  listening on IPv6 address "::1", port 5433
+2025-09-14 22:09:13.430 CDT [99884] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2025-09-14 22:09:13.430 CDT [99884] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2025-09-14 22:09:13.432 CDT [99885] LOG:  database system was shut down at 2025-09-14 22:09:13 CDT
+2025-09-14 22:09:13.434 CDT [99884] LOG:  database system is ready to accept connections
+2025-09-14 22:09:13.530 CDT [99893] FATAL:  database "taylor" does not exist
+2025-09-14 22:09:13.556 CDT [99899] FATAL:  role "postgres" does not exist
+2025-09-14 22:09:13.565 CDT [99901] FATAL:  role "postgres" does not exist
+2025-09-14 22:09:41.598 CDT [99914] FATAL:  database "postgres" does not exist
+2025-09-14 22:09:41.598 CDT [99914] DETAIL:  The database subdirectory "base/14118" is missing.
+2025-09-14 22:10:13.460 CDT [99925] FATAL:  database "postgres" does not exist
+2025-09-14 22:10:13.460 CDT [99925] DETAIL:  The database subdirectory "base/14118" is missing.
+2025-09-14 22:10:14.491 CDT [99884] LOG:  received fast shutdown request
+2025-09-14 22:10:14.491 CDT [99884] LOG:  aborting any active transactions
+2025-09-14 22:10:14.493 CDT [99884] LOG:  background worker "logical replication launcher" (PID 99891) exited with exit code 1
+2025-09-14 22:10:14.493 CDT [99886] LOG:  shutting down
+2025-09-14 22:10:14.499 CDT [99884] LOG:  database system is shut down
+2025-09-14 22:10:19.994 CDT [99948] LOG:  starting PostgreSQL 14.19 (Homebrew) on aarch64-apple-darwin24.4.0, compiled by Apple clang version 17.0.0 (clang-1700.0.13.3), 64-bit
+2025-09-14 22:10:19.996 CDT [99948] LOG:  listening on IPv6 address "::1", port 5433
+2025-09-14 22:10:19.996 CDT [99948] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2025-09-14 22:10:19.996 CDT [99948] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2025-09-14 22:10:19.998 CDT [99949] LOG:  database system was shut down at 2025-09-14 22:10:19 CDT
+2025-09-14 22:10:20.000 CDT [99948] LOG:  database system is ready to accept connections
+2025-09-14 22:10:20.096 CDT [99957] FATAL:  database "taylor" does not exist
